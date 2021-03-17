@@ -1,0 +1,176 @@
+board:
+  buy_url_cn: https://item.jd.com/10376703524.html
+  buy_url_global: N/A
+  debug_interface: SWD
+  debugger: J-Link
+  description_en: STM32F103C8T6 minimum system board, entry-level arm board.
+  description_zh: STM32F103C8T6最小系统板，入门级的ARM板。
+  emulator_machine: ''
+  large_image: documents/images/TB1U7e4IVXXXXaQXXXXXXXXXXXX_!!2-item_pic.png1_400x400.png
+  name: STM32F103-DOFLY-LYC8
+  price_cn: 25 CNY
+  price_global: N/A USD
+  sale_contact_cn: N/A
+  sale_contact_global: N/A
+  small_image: documents/images/TB1U7e4IVXXXXaQXXXXXXXXXXXX_!!2-item_pic.png_400x400.png
+  vendor: DoFly
+  version: 1.0.0
+chip:
+  chip_name: STM32F103C8T6
+  clock_source: HSE
+  device_vendor: STMicroelectronics
+  family_name: STM32
+  rx_name: PA10
+  series_name: STM32F1
+  source_freq: '8000000'
+  sub_series_name: STM32F103
+  target_freq: '240000000'
+  tx_name: PA9
+  uart_name: UART1
+docs:
+- category: manual
+  file: documents/德飞莱 STM32使用说明.pdf
+  title: 德飞莱 STM32使用说明
+- category: sheet
+  file: documents/stm32f10x应用资料.pdf
+  title: stm32f10x应用资料
+- category: other
+  file: documents/STM32最小系统版电路图.pdf
+  title: STM32最小系统版电路图
+- category: other
+  file: documents/德飞莱Jlink下载仿真STM32使用说明书.pdf
+  title: 德飞莱Jlink下载仿真STM32使用说明书
+- category: other
+  file: documents/STM32F10xxx GPIO应用示例.pdf
+  title: STM32F10xxx GPIO应用示例
+- category: other
+  file: documents/STM32F10xxxADC应用示例.pdf
+  title: STM32F10xxxADC应用示例
+- category: other
+  file: documents/STM32F10xxxDMA控制器.pdf
+  title: STM32F10xxxDMA控制器
+- category: other
+  file: documents/STM32F10xxxI2C应用示例.pdf
+  title: STM32F10xxxI2C应用示例
+- category: other
+  file: documents/STM32F10xxxSPI应用示例.pdf
+  title: STM32F10xxxSPI应用示例
+- category: other
+  file: documents/STM32F10xxxTIM1应用示例.pdf
+  title: STM32F10xxxTIM1应用示例
+- category: other
+  file: documents/STM32F10xxxTIM应用示例.pdf
+  title: STM32F10xxxTIM应用示例
+- category: other
+  file: documents/STM32F10xxxUSB开发人员工具包.pdf
+  title: STM32F10xxxUSB开发人员工具包
+- category: other
+  file: documents/STM32F10xxx使用USART应用编程.pdf
+  title: STM32F10xxx使用USART应用编程
+- category: other
+  file: documents/STM32F10xxx调试应用示例.pdf
+  title: STM32F10xxx调试应用示例
+- category: other
+  file: documents/STM32F10xxx硬件开发：使用入门.pdf
+  title: STM32F10xxx硬件开发：使用入门
+- category: other
+  file: documents/STM32F10xxx中的智能卡接口.pdf
+  title: STM32F10xxx中的智能卡接口
+example_projects: []
+features:
+- Stm32f103c8 main chip, welded on the motherboard
+- '  8M crystal oscillator (up to 72M through internal PLL) st official standard parameters'
+- Lm1117-3.3v voltage regulator chip can provide 800mA current at most
+- One MINIUSB interface can supply power to the system version and reserve USB communication
+  function
+- Reset (download) button
+- A group of function switching jumper pins
+- Standard JTAG download port, support JLINK, stlink
+- 3.3V power extension pin 3 × 2
+- Port expansion pin 8x4 + 3
+- 1 power indicator
+- A function indicator is used to verify the basic functions of IO port
+- Reserved serial port download interface, convenient for connecting with 5V development
+  board, and downloading program with serial port
+- 'Size: 50x5mm'
+- There are four 3.5mm positioning holes at four corners
+- In v1.2, 32.768k clock crystal oscillator and clock power interface are added
+- 20K ram, 64K ROM, tqfp48 package
+features_zh:
+- STM32F103C8主芯片一片，焊接在主板上
+- 8M晶振（通过芯片内部PLL最高达72M）ST官方标准参数
+- LM1117-3.3V稳压芯片，最大提供800mA电流
+- 一路miniUSB接口，可以给系统版供电，预留USB通讯功能
+- 复位（下载）按键
+- 功能切换跳线插针一组
+- 标准JTAG下载口一个，支持JLink，STLink
+- 3.3V电源扩展插针3x2根
+- 端口扩展插针8x4路+3路
+- 电源指示灯1个
+- 功能指示灯一个，用于验证IO口基本功能
+- 预留串口下载接口，方便和5V开发板连接，用串口即可下载程序
+- 尺寸：50x50mm
+- 在四个角有四个3.5mm定位孔
+- V1.2版本新增32.768K时钟晶振，时钟电源接口
+- 20K RAM，64K ROM ，TQFP48封装
+pkg_type: Board_Support_Packages
+pkg_vendor: RealThread
+pkg_version: 1.0.0
+template_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .cproject
+    - .gitignore
+    - .project
+    - .settings
+    - applications
+    - board
+    - cconfig.h
+    - figures
+    - Kconfig
+    - libraries
+    - makefile.targets
+    - project.ewd
+    - project.ewp
+    - project.eww
+    - project.uvopt
+    - project.uvoptx
+    - project.uvproj
+    - project.uvprojx
+    - README.md
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    - template.ewd
+    - template.ewp
+    - template.eww
+    - template.uvopt
+    - template.uvoptx
+    - template.uvproj
+    - template.uvprojx
+    source_path_offset: project_0
+    target_path_offset: ''
+  external_files:
+  - files_and_folders:
+    - components
+    - include
+    - libcpu/arm
+    - libcpu/Kconfig
+    - libcpu/SConscript
+    - src
+    - tools
+    - Kconfig
+    - LICENSE
+    package_name: RT-Thread
+    package_type: RT-Thread_Source_Code
+    package_vendor: ''
+    package_version: latest
+    source_path_offset: rt-thread
+    target_path_offset: rt-thread
+  project_description: STM32F103C8T6系统板模板工程
+  project_name: mytest
+  project_type: rt-thread|@full|@latest
+yaml_version: 3
