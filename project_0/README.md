@@ -3,7 +3,7 @@
 
 ## 简介
 
-本文档为FindYGL为德飞莱 STM32F103 开发板提供的 BSP (板级支持包) 说明。
+本文档为 Eureka1024 为德飞莱 STM32F103 开发板提供的 BSP (板级支持包) 说明。
 
 主要内容如下：
 
@@ -107,4 +107,4 @@ msh >
 
 维护人:
 
-- [FindYGL](https://github.com/FindYGL) 
+- [Eureka1024](https://github.com/Eureka1024) 
